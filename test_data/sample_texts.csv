@@ -1,0 +1,501 @@
+Text,Language,Sentiment
+Ça va coffee.,fr,neutral
+Es ist okay coffee.,de,neutral
+Me encanta my job.,es,positive
+Ça va school.,fr,neutral
+C'est correct coffee.,fr,neutral
+No está mal coffee.,es,neutral
+I enjoy school.,en,positive
+No me gusta my job.,es,negative
+I enjoy this movie.,en,positive
+Ich mag nicht this product.,de,negative
+Ich kann es nicht ausstehen school.,de,negative
+Es ist okay this movie.,de,neutral
+Non mi piace this movie.,it,negative
+No soporto this movie.,es,negative
+Je déteste this movie.,fr,negative
+I dislike my job.,en,negative
+Eu amo school.,pt,positive
+Preferisco school.,it,positive
+Je n'aime pas coffee.,fr,negative
+Je ne supporte pas the weather.,fr,negative
+I prefer coffee.,en,positive
+Καλούτσικο this movie.,el,neutral
+Λατρεύω this movie.,el,positive
+Pas mal my job.,fr,neutral
+Ich mag this movie.,de,positive
+Μου αρέσει πολύ this product.,el,positive
+Es ist okay school.,de,neutral
+I can't stand this product.,en,negative
+Είναι εντάξει coffee.,el,neutral
+Όχι κακό coffee.,el,neutral
+Δεν μου αρέσει coffee.,el,negative
+Mi piace this movie.,it,positive
+J'aime bien this product.,fr,positive
+Ich kann es nicht ausstehen this product.,de,negative
+I hate school.,en,negative
+Eu gosto de this product.,pt,positive
+I can't stand school.,en,negative
+Non è male school.,it,neutral
+Ich liebe my job.,de,positive
+Está bien this product.,es,neutral
+I can't stand this product.,en,negative
+I hate coffee.,en,negative
+Es geht coffee.,de,neutral
+Ich mag coffee.,de,positive
+É aceitável this product.,pt,neutral
+Me encanta the weather.,es,positive
+Δεν μου αρέσει coffee.,el,negative
+Μισώ this product.,el,negative
+I enjoy this movie.,en,positive
+É aceitável school.,pt,neutral
+C'est correct my job.,fr,neutral
+Es aceptable my job.,es,neutral
+Μου αρέσει πολύ this product.,el,positive
+Va bene my job.,it,neutral
+Es aceptable this movie.,es,neutral
+Ich mag nicht my job.,de,negative
+It’s fine this product.,en,neutral
+Δεν μου αρέσει this product.,el,negative
+I can't stand my job.,en,negative
+Me encanta school.,es,positive
+Je préfère the weather.,fr,positive
+É aceitável this movie.,pt,neutral
+Είναι εντάξει coffee.,el,neutral
+Ich mag nicht school.,de,negative
+Δεν μου αρέσει school.,el,negative
+Non sopporto the weather.,it,negative
+Não suporto my job.,pt,negative
+Προτιμώ school.,el,positive
+Non è male this product.,it,neutral
+Adoro school.,it,positive
+Ich kann es nicht ausstehen the weather.,de,negative
+Odio school.,es,negative
+Es geht coffee.,de,neutral
+Odio school.,es,negative
+Είναι εντάξει my job.,el,neutral
+Eu amo this product.,pt,positive
+Δεν μου αρέσει school.,el,negative
+Ich bevorzuge school.,de,positive
+I prefer coffee.,en,positive
+Está bem this movie.,pt,neutral
+Ça va school.,fr,neutral
+I love this movie.,en,positive
+Va bene the weather.,it,neutral
+Ich kann es nicht ausstehen coffee.,de,negative
+Not bad this product.,en,neutral
+Es aceptable coffee.,es,neutral
+Preferisco my job.,it,positive
+Odio school.,it,negative
+Pas mal this product.,fr,neutral
+È accettabile this movie.,it,neutral
+J'aime bien this movie.,fr,positive
+Καλούτσικο this product.,el,neutral
+J'adore my job.,fr,positive
+Nada mal coffee.,pt,neutral
+I dislike the weather.,en,negative
+Prefiro the weather.,pt,positive
+I dislike this movie.,en,negative
+Ich mag nicht school.,de,negative
+Mi piace coffee.,it,positive
+Pas mal school.,fr,neutral
+I dislike coffee.,en,negative
+Está bien my job.,es,neutral
+Non sopporto this product.,it,negative
+I love coffee.,en,positive
+Preferisco this movie.,it,positive
+Je déteste this movie.,fr,negative
+Não gosto de this product.,pt,negative
+Ich mag nicht school.,de,negative
+C'est correct my job.,fr,neutral
+Prefiero coffee.,es,positive
+Eu amo the weather.,pt,positive
+Δεν μου αρέσει this product.,el,negative
+Nicht schlecht the weather.,de,neutral
+Está bem school.,pt,neutral
+Va bene the weather.,it,neutral
+J'adore this movie.,fr,positive
+Odio this movie.,it,negative
+Ich mag this product.,de,positive
+Es aceptable the weather.,es,neutral
+Ich hasse coffee.,de,negative
+Va bene school.,it,neutral
+Me encanta this product.,es,positive
+Je déteste this product.,fr,negative
+Ich hasse my job.,de,negative
+Non è male coffee.,it,neutral
+Ich liebe school.,de,positive
+Me encanta the weather.,es,positive
+Δεν μου αρέσει coffee.,el,negative
+Je déteste the weather.,fr,negative
+Non sopporto school.,it,negative
+I enjoy this product.,en,positive
+Je ne supporte pas my job.,fr,negative
+I dislike school.,en,negative
+Όχι κακό school.,el,neutral
+Μισώ my job.,el,negative
+I love my job.,en,positive
+Non è male coffee.,it,neutral
+Non mi piace this movie.,it,negative
+No está mal coffee.,es,neutral
+Prefiero the weather.,es,positive
+È accettabile this movie.,it,neutral
+Δεν μου αρέσει this product.,el,negative
+Va bene this product.,it,neutral
+Es ist okay school.,de,neutral
+J'aime bien this movie.,fr,positive
+Καλούτσικο this product.,el,neutral
+Είναι εντάξει this movie.,el,neutral
+Pas mal my job.,fr,neutral
+Καλούτσικο this product.,el,neutral
+Je ne supporte pas coffee.,fr,negative
+I enjoy school.,en,positive
+It is okay school.,en,neutral
+I hate my job.,en,negative
+Nicht schlecht this movie.,de,neutral
+Ça va coffee.,fr,neutral
+Non mi piace this movie.,it,negative
+J'aime bien my job.,fr,positive
+Adoro coffee.,it,positive
+Não gosto de school.,pt,negative
+Je ne supporte pas this movie.,fr,negative
+Je préfère the weather.,fr,positive
+J'aime bien this product.,fr,positive
+Preferisco this movie.,it,positive
+Nicht schlecht this movie.,de,neutral
+Prefiro this movie.,pt,positive
+Preferisco this movie.,it,positive
+No está mal this product.,es,neutral
+Προτιμώ school.,el,positive
+No soporto the weather.,es,negative
+Es aceptable my job.,es,neutral
+Odio coffee.,it,negative
+I prefer this movie.,en,positive
+Λατρεύω school.,el,positive
+I love this product.,en,positive
+Δεν μου αρέσει this movie.,el,negative
+I prefer coffee.,en,positive
+Não gosto de the weather.,pt,negative
+Es geht this product.,de,neutral
+Nada mal my job.,pt,neutral
+I enjoy my job.,en,positive
+Me gusta this product.,es,positive
+Pas mal this movie.,fr,neutral
+Ich bevorzuge this movie.,de,positive
+Eu gosto de this product.,pt,positive
+Λατρεύω school.,el,positive
+Ça va this movie.,fr,neutral
+Prefiero my job.,es,positive
+Ich mag nicht this movie.,de,negative
+It is okay this movie.,en,neutral
+Nada mal this product.,pt,neutral
+Λατρεύω coffee.,el,positive
+Prefiero school.,es,positive
+Δεν αντέχω coffee.,el,negative
+Je préfère the weather.,fr,positive
+Eu amo school.,pt,positive
+Ich hasse school.,de,negative
+J'adore school.,fr,positive
+Me gusta school.,es,positive
+No me gusta school.,es,negative
+Je déteste coffee.,fr,negative
+I can't stand coffee.,en,negative
+Nicht schlecht my job.,de,neutral
+No soporto the weather.,es,negative
+Me encanta this product.,es,positive
+Καλούτσικο the weather.,el,neutral
+É aceitável coffee.,pt,neutral
+I hate this movie.,en,negative
+Non è male the weather.,it,neutral
+Nicht schlecht my job.,de,neutral
+No está mal coffee.,es,neutral
+Nicht schlecht this product.,de,neutral
+I enjoy this product.,en,positive
+Δεν μου αρέσει this movie.,el,negative
+Mi piace this movie.,it,positive
+Ça va coffee.,fr,neutral
+It is okay school.,en,neutral
+Va bene my job.,it,neutral
+Eu odeio the weather.,pt,negative
+Είναι εντάξει the weather.,el,neutral
+Non sopporto this product.,it,negative
+È accettabile coffee.,it,neutral
+Es aceptable this movie.,es,neutral
+Not bad the weather.,en,neutral
+Eu amo my job.,pt,positive
+Ich mag nicht this product.,de,negative
+It is okay this movie.,en,neutral
+J'aime bien this movie.,fr,positive
+Prefiero my job.,es,positive
+Non sopporto this movie.,it,negative
+Preferisco the weather.,it,positive
+Μισώ my job.,el,negative
+Eu odeio this movie.,pt,negative
+Es ist okay my job.,de,neutral
+Δεν αντέχω my job.,el,negative
+No me gusta school.,es,negative
+Preferisco my job.,it,positive
+Preferisco coffee.,it,positive
+J'adore my job.,fr,positive
+Nicht schlecht the weather.,de,neutral
+No está mal the weather.,es,neutral
+Eu amo school.,pt,positive
+Prefiero this product.,es,positive
+C'est correct the weather.,fr,neutral
+Está bem coffee.,pt,neutral
+Καλούτσικο the weather.,el,neutral
+Me gusta coffee.,es,positive
+Je ne supporte pas the weather.,fr,negative
+É aceitável my job.,pt,neutral
+Ich kann es nicht ausstehen my job.,de,negative
+Pas mal school.,fr,neutral
+Es aceptable this movie.,es,neutral
+Ich hasse school.,de,negative
+Odio the weather.,it,negative
+Ich mag school.,de,positive
+Está bem coffee.,pt,neutral
+J'aime bien my job.,fr,positive
+Non mi piace the weather.,it,negative
+Λατρεύω my job.,el,positive
+Not bad coffee.,en,neutral
+Ich mag nicht coffee.,de,negative
+No soporto my job.,es,negative
+Me encanta the weather.,es,positive
+I can't stand this product.,en,negative
+Καλούτσικο coffee.,el,neutral
+J'adore coffee.,fr,positive
+Odio the weather.,it,negative
+J'aime bien my job.,fr,positive
+Ich mag nicht coffee.,de,negative
+Não gosto de this product.,pt,negative
+Non è male my job.,it,neutral
+Ich bevorzuge school.,de,positive
+Δεν αντέχω this movie.,el,negative
+Δεν μου αρέσει this product.,el,negative
+Not bad this product.,en,neutral
+I love the weather.,en,positive
+Je préfère coffee.,fr,positive
+No me gusta school.,es,negative
+Όχι κακό this product.,el,neutral
+Λατρεύω the weather.,el,positive
+Eu odeio this movie.,pt,negative
+Pas mal this movie.,fr,neutral
+Odio coffee.,es,negative
+Es ist okay the weather.,de,neutral
+No soporto this movie.,es,negative
+I hate this movie.,en,negative
+Me encanta this product.,es,positive
+Je ne supporte pas school.,fr,negative
+Je déteste coffee.,fr,negative
+Προτιμώ school.,el,positive
+Es ist okay this movie.,de,neutral
+I can't stand the weather.,en,negative
+Je n'aime pas my job.,fr,negative
+Nicht schlecht this movie.,de,neutral
+Adoro coffee.,it,positive
+Está bien coffee.,es,neutral
+Non è male my job.,it,neutral
+Es aceptable this product.,es,neutral
+Je préfère this product.,fr,positive
+Non mi piace coffee.,it,negative
+I love this movie.,en,positive
+Va bene this movie.,it,neutral
+Va bene this movie.,it,neutral
+No me gusta coffee.,es,negative
+Não gosto de my job.,pt,negative
+I enjoy this movie.,en,positive
+J'aime bien the weather.,fr,positive
+Odio the weather.,it,negative
+Está bien school.,es,neutral
+Non è male the weather.,it,neutral
+Não gosto de this movie.,pt,negative
+Me gusta my job.,es,positive
+Non è male my job.,it,neutral
+Ich kann es nicht ausstehen school.,de,negative
+Je préfère my job.,fr,positive
+Nicht schlecht school.,de,neutral
+Pas mal school.,fr,neutral
+Ich mag the weather.,de,positive
+Me encanta the weather.,es,positive
+No soporto the weather.,es,negative
+Ich kann es nicht ausstehen the weather.,de,negative
+Non mi piace my job.,it,negative
+Não suporto this product.,pt,negative
+Ich mag nicht this movie.,de,negative
+Me encanta coffee.,es,positive
+Me gusta this movie.,es,positive
+No me gusta my job.,es,negative
+I prefer the weather.,en,positive
+It’s fine the weather.,en,neutral
+I can't stand coffee.,en,negative
+Non sopporto the weather.,it,negative
+Me encanta my job.,es,positive
+Not bad school.,en,neutral
+Va bene the weather.,it,neutral
+Όχι κακό this product.,el,neutral
+È accettabile coffee.,it,neutral
+Es aceptable coffee.,es,neutral
+Pas mal this product.,fr,neutral
+Me gusta coffee.,es,positive
+Je ne supporte pas this movie.,fr,negative
+Δεν μου αρέσει this product.,el,negative
+C'est correct the weather.,fr,neutral
+Odio school.,it,negative
+C'est correct this movie.,fr,neutral
+Μου αρέσει πολύ the weather.,el,positive
+Ich mag the weather.,de,positive
+Καλούτσικο the weather.,el,neutral
+Προτιμώ school.,el,positive
+Es aceptable the weather.,es,neutral
+Καλούτσικο this product.,el,neutral
+J'adore this movie.,fr,positive
+Eu amo school.,pt,positive
+No está mal coffee.,es,neutral
+Non mi piace my job.,it,negative
+J'aime bien coffee.,fr,positive
+Μου αρέσει πολύ school.,el,positive
+Ça va this movie.,fr,neutral
+Ich bevorzuge the weather.,de,positive
+Nicht schlecht my job.,de,neutral
+No me gusta this product.,es,negative
+Ich hasse my job.,de,negative
+J'adore my job.,fr,positive
+Je ne supporte pas my job.,fr,negative
+It is okay school.,en,neutral
+Ça va the weather.,fr,neutral
+Je ne supporte pas the weather.,fr,negative
+Odio this movie.,es,negative
+Prefiero my job.,es,positive
+Não gosto de my job.,pt,negative
+Nicht schlecht school.,de,neutral
+Preferisco my job.,it,positive
+Ich mag this product.,de,positive
+Καλούτσικο this product.,el,neutral
+Mi piace the weather.,it,positive
+Está bien coffee.,es,neutral
+Está bem coffee.,pt,neutral
+I hate my job.,en,negative
+Es geht this movie.,de,neutral
+Non è male school.,it,neutral
+Non è male coffee.,it,neutral
+Nada mal the weather.,pt,neutral
+Está bien the weather.,es,neutral
+Mi piace the weather.,it,positive
+Va bene this product.,it,neutral
+Eu odeio this movie.,pt,negative
+No está mal the weather.,es,neutral
+Prefiero coffee.,es,positive
+Não gosto de school.,pt,negative
+Odio this movie.,it,negative
+Δεν μου αρέσει school.,el,negative
+Odio school.,es,negative
+Je n'aime pas school.,fr,negative
+C'est correct school.,fr,neutral
+Está bien my job.,es,neutral
+Ich liebe coffee.,de,positive
+I hate the weather.,en,negative
+Je ne supporte pas school.,fr,negative
+Va bene coffee.,it,neutral
+Prefiero this product.,es,positive
+Ich kann es nicht ausstehen the weather.,de,negative
+Está bien coffee.,es,neutral
+Je préfère the weather.,fr,positive
+Λατρεύω my job.,el,positive
+Προτιμώ my job.,el,positive
+It’s fine this movie.,en,neutral
+Es geht this product.,de,neutral
+Nicht schlecht school.,de,neutral
+Καλούτσικο coffee.,el,neutral
+Preferisco this product.,it,positive
+Não gosto de coffee.,pt,negative
+Προτιμώ school.,el,positive
+No está mal my job.,es,neutral
+It’s fine this movie.,en,neutral
+Προτιμώ the weather.,el,positive
+Adoro the weather.,it,positive
+Μισώ this product.,el,negative
+Είναι εντάξει school.,el,neutral
+Ich liebe my job.,de,positive
+J'aime bien coffee.,fr,positive
+Adoro school.,it,positive
+Pas mal this movie.,fr,neutral
+No me gusta the weather.,es,negative
+Está bem the weather.,pt,neutral
+Ich kann es nicht ausstehen coffee.,de,negative
+Odio this product.,it,negative
+Está bien this movie.,es,neutral
+Μου αρέσει πολύ the weather.,el,positive
+Eu amo coffee.,pt,positive
+It is okay school.,en,neutral
+Odio coffee.,it,negative
+Μου αρέσει πολύ my job.,el,positive
+Je n'aime pas this movie.,fr,negative
+Ich mag nicht coffee.,de,negative
+Odio this product.,it,negative
+Pas mal this movie.,fr,neutral
+Adoro this product.,it,positive
+É aceitável this movie.,pt,neutral
+Non è male my job.,it,neutral
+Preferisco this movie.,it,positive
+No soporto this product.,es,negative
+I dislike this product.,en,negative
+Ich bevorzuge this movie.,de,positive
+Δεν μου αρέσει my job.,el,negative
+It’s fine my job.,en,neutral
+Ich bevorzuge coffee.,de,positive
+Es geht the weather.,de,neutral
+Μου αρέσει πολύ my job.,el,positive
+Não gosto de this movie.,pt,negative
+Προτιμώ this product.,el,positive
+No me gusta my job.,es,negative
+Je préfère my job.,fr,positive
+Ich kann es nicht ausstehen this product.,de,negative
+I love my job.,en,positive
+Eu gosto de coffee.,pt,positive
+Eu amo my job.,pt,positive
+Odio this product.,es,negative
+Not bad the weather.,en,neutral
+Preferisco school.,it,positive
+I dislike the weather.,en,negative
+Not bad this movie.,en,neutral
+Όχι κακό this movie.,el,neutral
+Μισώ the weather.,el,negative
+Me gusta school.,es,positive
+Eu gosto de coffee.,pt,positive
+Prefiro my job.,pt,positive
+Nada mal my job.,pt,neutral
+Λατρεύω this product.,el,positive
+Va bene coffee.,it,neutral
+Es ist okay school.,de,neutral
+Δεν αντέχω this movie.,el,negative
+Odio the weather.,es,negative
+J'adore the weather.,fr,positive
+Nada mal school.,pt,neutral
+Mi piace the weather.,it,positive
+Είναι εντάξει this movie.,el,neutral
+I love this product.,en,positive
+Je préfère school.,fr,positive
+Odio this movie.,it,negative
+Odio school.,it,negative
+Ich mag nicht the weather.,de,negative
+C'est correct this movie.,fr,neutral
+It’s fine this movie.,en,neutral
+Δεν μου αρέσει school.,el,negative
+It is okay this product.,en,neutral
+Preferisco this product.,it,positive
+Es geht my job.,de,neutral
+Μου αρέσει πολύ the weather.,el,positive
+Je déteste this movie.,fr,negative
+Είναι εντάξει the weather.,el,neutral
+Ich mag nicht my job.,de,negative
+I prefer my job.,en,positive
+Not bad coffee.,en,neutral
+Ich hasse this product.,de,negative
+No está mal coffee.,es,neutral
+I love school.,en,positive
+Me encanta coffee.,es,positive
+Μισώ coffee.,el,negative
+I enjoy my job.,en,positive
+Δεν μου αρέσει this movie.,el,negative
+Odio coffee.,it,negative
+Ich hasse this product.,de,negative
