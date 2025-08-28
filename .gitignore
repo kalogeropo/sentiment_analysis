@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 .env
 .sentiment_venv
+Libeccio_ML/sentiment_analysis/Konstantinos/reviews_new.csv
