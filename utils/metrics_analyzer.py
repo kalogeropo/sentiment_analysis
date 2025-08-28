@@ -60,7 +60,7 @@ class TranslationMetricsEvaluator:
                 "Prediction": predictions
             })
 
-        return result, new if return_predictions else None
+        return result, df if return_predictions else None
 
 class MetricsEvaluator:
     def __init__(self, predictor: Callable[[str], str], name: str = "UnnamedModel"):
@@ -77,7 +77,7 @@ class MetricsEvaluator:
                  task_type: str = "classification",  
                  verbose: bool = False,
                  return_predictions: bool = False
-                 ) -> Dict:
+                 ) -> Dict | tuple:
         predicted_labels = []
         timings = []
 
@@ -108,13 +108,14 @@ class MetricsEvaluator:
         }
 
         if return_predictions:
-            new = df = pd.DataFrame({
+            from pandas import DataFrame
+            df = DataFrame({
                     "Text": texts,
                     "True Label": true_labels,
                     "Predicted Label": predicted_labels
                 })
 
-        return result, new if return_predictions else None
+        return result, df if return_predictions else None
 
 
 

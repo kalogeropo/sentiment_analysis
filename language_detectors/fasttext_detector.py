@@ -1,4 +1,5 @@
 import os
+from re import L
 import urllib.request
 import fasttext
 from language_detectors.language_detector import LanguageDetectorBase
@@ -21,5 +22,9 @@ class FastTextDetector(LanguageDetectorBase):
             print("Download complete.")
 
     def detect_language(self, text: str) -> str:
-        label = self.model.predict(text, k=1)[0][0]  # Only take top-1 label
-        return label.replace("__label__", "")
+        labels, probs = self.model.predict(text, k=1)
+        if labels and len(labels) > 0:
+            label: str = labels[0]
+            return label.replace("__label__", "")
+        else:
+            return ""

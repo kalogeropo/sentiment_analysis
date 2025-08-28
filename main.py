@@ -2,7 +2,7 @@ import pandas as pd
 
 from language_detectors.langdetect_detector import LangDetectDetector
 from language_detectors.langid_detector import LangIDDetector
-from language_detectors.roberta_detector import Roberta_Detector
+from language_detectors.roberta_detector import RobertaDetector
 from language_detectors.fasttext_detector import FastTextDetector
 
 from translators.translators import OpusMtTranslator
@@ -19,7 +19,7 @@ def get_detector(name: str):
     elif name == "langid":
         return LangIDDetector()
     elif name == "roberta":
-        return Roberta_Detector()
+        return RobertaDetector()
     elif name == "fasttext":
         return FastTextDetector() 
     else:
@@ -49,15 +49,15 @@ def run_language_evaluation(df,verbose=False, return_predictions=False):
 
 
 if __name__ == "__main__":
-    # Load the sample data
-    # df = pd.read_csv("./test_data/sample_texts.csv")
+    #Load the sample data
+    df = pd.read_csv("Libeccio_ML/sentiment_analysis/test_data/sample_texts.csv")
     
-    # summary = analyze_language_sentiment_dataframe(df)
-    # print(summary)
-    # # Run language detection evaluation
-    # run_language_evaluation(df,return_predictions=True)
+    summary = analyze_language_sentiment_dataframe(df)
+    print(summary)
+    # Run language detection evaluation
+    run_language_evaluation(df,return_predictions=True)
 
-    df = pd.read_csv("test_data/multilingual_translation_eval_with_reference.csv")
+    df = pd.read_csv("Libeccio_ML/sentiment_analysis/test_data/multilingual_translation_eval_with_reference.csv")
     source_texts = df["Text"].tolist()
     reference_texts = df["Reference"].tolist()
     print(df.head())
