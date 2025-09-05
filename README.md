@@ -1,74 +1,89 @@
 # Machine Learning Pipeline
 
+This repository is part of the **Libeccio Programme**, a data-driven platform for tourism and regional development.  
+The Machine Learning Pipeline provides the core infrastructure for experimenting with, evaluating, and deploying ML models on top of heterogeneous tourism-related data (e.g. reviews, mobility, climate, aviation, accommodation).
 
+The pipeline’s main goals are:
+- **Data Integration**: consume multilingual, multi-source tourism data streams collected within Libeccio (reviews, bookings, events, environmental signals).  
+- **Experiment Management**: track parameters, metrics, and artifacts with [MLflow](https://mlflow.org/) for reproducibility and transparent comparison of models.  
+- **Modular Workflows**: each task (e.g. sentiment analysis on reviews, demand forecasting, anomaly detection in tourism flows) is encapsulated as a reusable component that can be combined into larger workflows.  
+- **Evaluation & Benchmarking**: standardized evaluators for classification, regression, and translation tasks (accuracy, F1, BLEU/chrF, RMSE, etc.), enabling fair comparison across domains and models.  
+- **Deployment**: package best-performing models as MLflow `pyfunc` models, ready for integration into the Libeccio DMSS dashboards and APIs.
+
+### Example Use Case: Sentiment Analysis
+Tourism reviews in multiple languages are processed through the pipeline:
+1. **Language Detection** → identify the review’s source language.  
+2. **Translation** → translate to English using the best-performing model for that language (benchmarked in this pipeline).  
+3. **Sentiment Classification** → classify as positive, neutral, or negative.  
+4. **Logging & Selection** → log results to MLflow; select the optimal detector/translator/classifier path per language.  
+
+This ensures that multilingual feedback from visitors is consistently analyzed and comparable, supporting Libeccio’s broader goal of providing **decision-support insights for tourism stakeholders**.
+
+---.
+
+
+## Sentiment Analysis with Multilingual Translation
+
+This project explores **sentiment analysis on multilingual reviews**, focusing on:
+1. **Language Detection** – choosing the most reliable detector for noisy text.  
+2. **Machine Translation** – translating reviews to English with different methods (currently Opus-MT, more can be added).  
+3. **Downstream Sentiment** – (planned) evaluating how translation quality affects English sentiment classification.  
+
+The **end goal** is to identify the **best translation pipeline per source language** by maximizing downstream **sentiment accuracy**.
+
+## The rest of machine learning things we will do here
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+1. Check remotes
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.isi.gr/manufacturing/libeccio/machine-learning-pipeline.git
-git branch -M main
-git push -uf origin main
+git remote -v
 ```
 
-## Integrate with your tools
+Here should be two repositories. The github is public and will be used as a referance repository for research purposes in the future.
+Therefore, for the Libeccio Project any changes should happen in the **GITLAB** dev branch.
+**ITS IS IMPORTANT** to use best practises and any file that contains **sensitive information** should be added to the **.gitignore**.
 
-- [ ] [Set up project integrations](https://gitlab.isi.gr/manufacturing/libeccio/machine-learning-pipeline/-/settings/integrations)
+2. Create or switch to a branch
 
-## Collaborate with your team
+```
+# update local refs
+git fetch gitlab
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+# create a new branch from GitLab main
+git checkout -b my-feature gitlab/main
+```
 
-## Test and Deploy
+3. Commit your changes
 
-Use the built-in continuous integration in GitLab.
+```
+git add <files>
+git commit -m "Meaningful commit message"
+```
+4. Push changes to GitLab
+```
+# first push sets upstream
+git push -u gitlab my-feature
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+# for later commits
+git push
+```
+Most of this work can be done via the IDE either VScode or Pycharm.
+Merge requests after milestones can be done via the gitlab user interface.
 
-***
 
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+
+```
+conda env create -f environment.yml
+conda activate sentiment-analysis-env
+```
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+
+1. Sentiment Analysis with Multilingual Translation will implement mlflow for development and deployment. In later time we will offer examples.
 
 ## Support
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
