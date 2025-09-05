@@ -69,6 +69,11 @@ git push -u gitlab my-feature
 # for later commits
 git push
 ```
+5. Update with changes from remote repository (It is not needed when working with ssh in the Libeccio ML computer)
+```
+git pull 
+```
+
 Most of this work can be done via the IDE either VScode or Pycharm.
 Merge requests after milestones can be done via the gitlab user interface.
 
