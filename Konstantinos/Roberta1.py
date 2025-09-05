@@ -9,8 +9,9 @@ DetectorFactory.seed = 0
 
 reviews_df = pd.read_csv('reviews_new.csv', low_memory=False)
 
-sentiment_analyzer = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
-emotion_analyzer = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", top_k=1)
+device = 0 if torch.cuda.is_available() else -1
+sentiment_analyzer = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest", device=device)
+emotion_analyzer = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", top_k=1, device=device)
 
 def preprocess_and_analyze1(review):
     if pd.isna(review):
@@ -51,29 +52,37 @@ emo_scores = []
 emo_labels = []
 aspects = []
 
-for i in range(len(reviews_df)):
+for i in range(5000):
+    print("Proccessing Review: ", i)
     result = preprocess_and_analyze1(reviews_df['context'].iloc[i])
     sent = result["sentiment"]
-    if isinstance(sent, dict):
-        sen_scores.append(sent.get("score"))
-        sen_labels.append(sent.get("label"))
-    else:
+    try:
+        sen_scores.append(sent["score"])
+        sen_labels.append(sent["label"])
+    except:
         sen_scores.append(None)
         sen_labels.append(None)
 
     emo = result["emotion"]
-    if isinstance(emo, list) and len(emo) > 0 and isinstance(emo[0], dict):
-        emo_labels.append(emo[0].get("label"))
-        emo_scores.append(emo[0].get("score"))
-    else:
+    first_result = emo[0][0]
+    try:
+        label = first_result['label']
+        score = first_result['score']
+        emo_labels.append(label)
+        emo_scores.append(score)
+    except:
         emo_labels.append(None)
         emo_scores.append(None)
 
     aspects.append(result["aspects"])
 
-reviews_df['sentiment_scores'] = sen_scores
-reviews_df['sentiment_labels'] = sen_labels
-reviews_df['emotion_scores'] = emo_scores
-reviews_df['emotion_labels'] = emo_labels
-reviews_df['aspects'] = aspects
+reviews_df_reduced = reviews_df.iloc[:5000]
+
+reviews_df_reduced['sentiment_scores'] = sen_scores
+reviews_df_reduced['sentiment_labels'] = sen_labels
+reviews_df_reduced['emotion_scores'] = emo_scores
+reviews_df_reduced['emotion_labels'] = emo_labels
+reviews_df_reduced['aspects'] = aspects
+
+reviews_df_reduced.to_csv("reviews_df_Roberta1.csv", index=False)
 
