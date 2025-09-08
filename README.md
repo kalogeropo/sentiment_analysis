@@ -19,7 +19,7 @@ Tourism reviews in multiple languages are processed through the pipeline:
 
 This ensures that multilingual feedback from visitors is consistently analyzed and comparable, supporting Libeccio’s broader goal of providing **decision-support insights for tourism stakeholders**.
 
----.
+---
 
 
 ## Sentiment Analysis with Multilingual Translation

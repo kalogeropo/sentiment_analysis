@@ -5,7 +5,7 @@ from language_detectors.langid_detector import LangIDDetector
 from language_detectors.roberta_detector import RobertaDetector
 from language_detectors.fasttext_detector import FastTextDetector
 
-from translators.translators import OpusMtTranslator
+from Libeccio_ML.sentiment_analysis.translators.opus_mt import OpusMtTranslator
 
 from utils.metrics_analyzer import MetricsEvaluator ,analyze_language_sentiment_dataframe, analyze_prediction_df, TranslationMetricsEvaluator
 
